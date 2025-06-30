@@ -6,7 +6,7 @@ Scenario descriptions are separated into categories: CALIBRATION, CARDINAL, CONT
 
 | Scenario type     | Explicit geometry                      | Implied/world knowledge     |
 | ----------------- | -------------------------------------- | --------------------------- |
-| Calibration       | Exact coordinatess & numerical offsets                 | None                        |
-| Simple            | Cardinal directions, “centre”, “above” | Low (room origin assumed)   |
-| Context-dependent | Corners, facing, gaze, affordances                  | Medium (object affordances) |
-| Literary          | Vivid prose, vague descriptions, metaphors,                      | High (scene conventions)    |
+| CALIBRATION       | Exact coordinatess & numerical offsets                 | None                        |
+| CARDINAL            | Cardinal directions, “centre”, “above” | Low (room origin assumed)   |
+| CONTEXT | Corners, facing, gaze, affordances                  | Medium (object affordances) |
+| LITERARY          | Vivid prose, vague descriptions, metaphors,                      | High (scene conventions)    |
