@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entities Schema",
+  "type": "object",
+  "properties": {
+    "objects": {
+      "type": "object",
+      "description": "Map of entity names to their definitions",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "object",
+            "properties": {
+              "x": { "type": "number", "description": "X coordinate" },
+              "y": { "type": "number", "description": "Y coordinate" },
+              "z": { "type": "number", "description": "Z coordinate" }
+            },
+            "required": ["x", "y", "z"],
+            "additionalProperties": false
+          }
+        },
+        "required": ["position"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["objects"],
+  "additionalProperties": false
+}
