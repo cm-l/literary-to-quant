@@ -206,7 +206,7 @@ def main():
                 continue
 
             system_prompt = (
-                "You are a spatial-reasoning agent. Use a right-handed XYZ frame, origin at room center. "
+                "You are a spatial-reasoning agent. Use a right-handed XYZ frame, with the (0, 0, 0) origin point being at the center of the space on floor level. "
                 "Answer *only* with JSON that conforms exactly to the schema below—no extra keys, no commentary.\n\n"
                 "Here is the JSON schema for scene descriptions:\n```json\n"
                 f"{SCHEMA_STR}\n```"
