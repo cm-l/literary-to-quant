@@ -20,4 +20,5 @@ SCHEMA_FILE=scene_schema.json
 SCENARIO_DIR=scenarios
 OUTPUT_DIR=outputs
 API_URL=https://openrouter.ai/api/v1/chat/completions
+SEED=2025
 ```
