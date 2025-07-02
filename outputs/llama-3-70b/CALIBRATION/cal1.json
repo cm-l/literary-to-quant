@@ -1,0 +1,24 @@
+{
+  "scenario_id": "cal1",
+  "category": "CALIBRATION",
+  "prompt": "A is at (1, 6, 4) and is 4 units to the left of B.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 2.884,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"A\": {\n      \"position\": {\n        \"x\": 1,\n        \"y\": 6,\n        \"z\": 4\n      }\n    },\n    \"B\": {\n      \"position\": {\n        \"x\": 5,\n        \"y\": 6,\n        \"z\": 4\n      }\n    }\n  }\n}"
+}

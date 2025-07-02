@@ -1,0 +1,24 @@
+{
+  "scenario_id": "lit1",
+  "category": "LITERARY",
+  "prompt": "The living room bore all the gentle scars of daily life. Pushed\nup against the wall, a sofa, softened by years of conversation and afternoon naps. Next to\nit, a coffee table, cluttered yet comforting, held a stack of books and a half-empty mug.\nPhotographs lined shelves, capturing smiling faces and faded vacations. In the middle of the room - a large pile of LEGO bricks, hazardous to any family member brave enough to walk around barefoot.",
+  "model": "gpt-4o",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 4.287,
+    "usage": null,
+    "model_used": "openai/gpt-4o",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"sofa\": {\n      \"position\": {\n        \"x\": -100,\n        \"y\": 0,\n        \"z\": 0\n      }\n    },\n    \"coffee_table\": {\n      \"position\": {\n        \"x\": -80,\n        \"y\": 0,\n        \"z\": 20\n      }\n    },\n    \"stack_of_books\": {\n      \"position\": {\n        \"x\": -80,\n        \"y\": 10,\n        \"z\": 20\n      }\n    },\n    \"half_empty_mug\": {\n      \"position\": {\n        \"x\": -80,\n        \"y\": 12,\n        \"z\": 22\n      }\n    },\n    \"photographs\": {\n      \"position\": {\n        \"x\": -120,\n        \"y\": 50,\n        \"z\": 0\n      }\n    },\n    \"lego_pile\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 0\n      }\n    }\n  }\n}\n"
+}
