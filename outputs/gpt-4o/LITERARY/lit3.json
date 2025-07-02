@@ -1,0 +1,24 @@
+{
+  "scenario_id": "lit3",
+  "category": "LITERARY",
+  "prompt": "Mismatched, colorful mugs crowded one corner of the counter, near a kettle that was still warm. A cutting board sat where it had been left mid-prep, still dusted with crumbs and the faint scent of garlic. Magnets held a collage of notes and photos on the fridge right by the entrance - reminders, recipes, and a child\u00e2\u20ac\u2122s drawing of a rotund cat. Light streamed through the window above the sink, illuminating a pile of dishes yet to be washed.",
+  "model": "gpt-4o",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 4.331,
+    "usage": null,
+    "model_used": "openai/gpt-4o",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"mugs\": {\n      \"position\": {\n        \"x\": -60,\n        \"y\": 0,\n        \"z\": 60\n      }\n    },\n    \"kettle\": {\n      \"position\": {\n        \"x\": -55,\n        \"y\": 0,\n        \"z\": 65\n      }\n    },\n    \"cutting_board\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 30\n      }\n    },\n    \"fridge\": {\n      \"position\": {\n        \"x\": 100,\n        \"y\": 0,\n        \"z\": -50\n      }\n    },\n    \"window\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 50,\n        \"z\": 128\n      }\n    },\n    \"pile_of_dishes\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 70\n      }\n    }\n  }\n}\n"
+}

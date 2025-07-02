@@ -1,0 +1,25 @@
+{
+  "scenario_id": "lit3",
+  "category": "LITERARY",
+  "prompt": "Mismatched, colorful mugs crowded one corner of the counter, near a kettle that was still warm. A cutting board sat where it had been left mid-prep, still dusted with crumbs and the faint scent of garlic. Magnets held a collage of notes and photos on the fridge right by the entrance - reminders, recipes, and a childâ€™s drawing of a rotund cat. Light streamed through the window above the sink, illuminating a pile of dishes yet to be washed.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 8.08,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"mugs\":{\"position\":{\"x\":104.72727272727272,\"y\":68.92307692307693,\"z\":-76.8}},\"kettle\":{\"position\":{\"x\":128.0,\"y\":68.92307692307693,\"z\":-76.8}},\"cutting_board\":{\"position\":{\"x\":-11.63636363636364,\"y\":68.92307692307693,\"z\":-76.8}},\"refrigerator\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":25.599999999999994}},\"magnets\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":128.0}},\"window\":{\"position\":{\"x\":-11.63636363636364,\"y\":128.0,\"z\":128.0}},\"sink\":{\"position\":{\"x\":-11.63636363636364,\"y\":108.30769230769232,\"z\":-76.8}},\"dishes\":{\"position\":{\"x\":-11.63636363636364,\"y\":108.30769230769232,\"z\":-25.599999999999994}},\"counter\":{\"position\":{\"x\":-11.63636363636364,\"y\":68.92307692307693,\"z\":-128.0}}}}",
+  "normalised": true
+}

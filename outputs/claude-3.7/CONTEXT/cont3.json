@@ -1,0 +1,24 @@
+{
+  "scenario_id": "cont3",
+  "category": "CONTEXT",
+  "prompt": "An abstract marble sculpture stands at the exact center of the gallery room. On the wall facing it directly, a painting of a woman hangs centered horizontally. A bench rests somewhere between the sculpture and the painting-adorned wall, slightly closer to the portrait. A spotlight shines directly down onto the sculpture from above.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.967,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"sculpture\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 0\n      }\n    },\n    \"painting\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 5,\n        \"z\": 1\n      }\n    },\n    \"bench\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 2,\n        \"z\": 0\n      }\n    },\n    \"spotlight\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 3\n      }\n    }\n  }\n}\n"
+}

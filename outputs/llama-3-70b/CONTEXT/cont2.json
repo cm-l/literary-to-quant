@@ -1,0 +1,24 @@
+{
+  "scenario_id": "cont2",
+  "category": "CONTEXT",
+  "prompt": "In a typical living room, there's a coffee table two feet in front of a sofa. There's also a floor lamp behind the sofa.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.463,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"coffee_table\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 24,\n        \"z\": 0\n      }\n    },\n    \"sofa\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 0\n      }\n    },\n    \"floor_lamp\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": -24,\n        \"z\": 0\n      }\n    }\n  }\n}"
+}

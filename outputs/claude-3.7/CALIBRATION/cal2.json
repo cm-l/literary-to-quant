@@ -1,0 +1,24 @@
+{
+  "scenario_id": "cal2",
+  "category": "CALIBRATION",
+  "prompt": "D is at (120, 20, 30) and is 20 units to the right of E.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 4.179,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"D\": {\n      \"position\": {\n        \"x\": 120,\n        \"y\": 20,\n        \"z\": 30\n      }\n    },\n    \"E\": {\n      \"position\": {\n        \"x\": 100,\n        \"y\": 20,\n        \"z\": 30\n      }\n    }\n  }\n}\n"
+}

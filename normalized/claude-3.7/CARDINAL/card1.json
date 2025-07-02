@@ -1,0 +1,25 @@
+{
+  "scenario_id": "card1",
+  "category": "CARDINAL",
+  "prompt": "Alice stands in the middle of the room. In one corner: there is a trashcan, and in the corner opposite to it, a chair. Alice is looking at herself in the mirror which hangs on the wall in front of her.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.314,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"Alice\":{\"position\":{\"x\":0.0,\"y\":-21.33333333333333,\"z\":-128.0}},\"trashcan\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-128.0}},\"chair\":{\"position\":{\"x\":128.0,\"y\":85.33333333333334,\"z\":-128.0}},\"mirror\":{\"position\":{\"x\":0.0,\"y\":128.0,\"z\":128.0}}}}",
+  "normalised": true
+}

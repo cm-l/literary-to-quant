@@ -1,0 +1,25 @@
+{
+  "scenario_id": "card2",
+  "category": "CARDINAL",
+  "prompt": "In an art studio, a large canvas hangs on the back wall so that its center is positioned 40 units from the left corner of that wall. In the middle of the floor stands a pedestal with a sculpture on it. Directly above the sculpture, a spotlight is mounted on the ceiling.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 5.335,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"canvas\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":-128.0}},\"pedestal\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-128.0}},\"sculpture\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-115.2}},\"spotlight\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":128.0}}}}",
+  "normalised": true
+}

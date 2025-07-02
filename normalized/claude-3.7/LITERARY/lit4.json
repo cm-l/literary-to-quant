@@ -1,0 +1,25 @@
+{
+  "scenario_id": "lit4",
+  "category": "LITERARY",
+  "prompt": "The lawyer's office smelled like burnt ribbon ink and defeat. A tiny desk was jammed against the wall, the electronic typewriter on it still warm. A bone-dry coffe mug yawning beside a phone coiled like a paranoid rattler around a stack of greasy business cards. Across the room, a bloated bookcase sagged with colorful binders - narcotics busts, divorce shrapnel, nasty land-grab double-crosses. He knew he didn't have much time, and that getting disbarred was just the beginning. The shredder by the window snarled nonstop since Monday, chewing paper into confetti so efficiently you'd swear it was on a government stipend. This, friend, is where the years of legally dubious paperwork comes to die: where the truth gets bleached, pulped and shot into a trashcan in tidy strips. Just another day's offering to the gods of legal gymnastics.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 5.683,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"desk\":{\"position\":{\"x\":-128.0,\"y\":32.0,\"z\":-18.285714285714292}},\"typewriter\":{\"position\":{\"x\":-128.0,\"y\":32.0,\"z\":18.285714285714278}},\"coffee_mug\":{\"position\":{\"x\":-102.4,\"y\":32.0,\"z\":18.285714285714278}},\"phone\":{\"position\":{\"x\":-76.8,\"y\":32.0,\"z\":18.285714285714278}},\"business_cards\":{\"position\":{\"x\":-76.8,\"y\":32.0,\"z\":32.91428571428574}},\"bookcase\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":128.0}},\"shredder\":{\"position\":{\"x\":0.0,\"y\":128.0,\"z\":-91.42857142857143}},\"trashcan\":{\"position\":{\"x\":25.599999999999994,\"y\":128.0,\"z\":-128.0}}}}",
+  "normalised": true
+}

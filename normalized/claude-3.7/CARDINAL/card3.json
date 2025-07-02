@@ -1,0 +1,25 @@
+{
+  "scenario_id": "card3",
+  "category": "CARDINAL",
+  "prompt": "In a small kitchen, a rectangular dining table stands exactly 20 units from the back wall, positioned centrally between the left and right walls. Four chairs surround the table, each precisely 10 unit apart. A hanging light fixture is suspended 30 units above the tableâ€™s surface. To the right, a refrigerator stands against the side wall, about 20 units from the corner",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 6.036,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"table\":{\"position\":{\"x\":0.0,\"y\":0.0,\"z\":-128.0}},\"chair1\":{\"position\":{\"x\":64.0,\"y\":0.0,\"z\":-128.0}},\"chair2\":{\"position\":{\"x\":-64.0,\"y\":0.0,\"z\":-128.0}},\"chair3\":{\"position\":{\"x\":0.0,\"y\":64.0,\"z\":-128.0}},\"chair4\":{\"position\":{\"x\":0.0,\"y\":-64.0,\"z\":-128.0}},\"light_fixture\":{\"position\":{\"x\":0.0,\"y\":0.0,\"z\":128.0}},\"refrigerator\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":-128.0}},\"back_wall\":{\"position\":{\"x\":0.0,\"y\":128.0,\"z\":-128.0}},\"right_wall\":{\"position\":{\"x\":128.0,\"y\":0.0,\"z\":-128.0}},\"left_wall\":{\"position\":{\"x\":-128.0,\"y\":0.0,\"z\":-128.0}}}}",
+  "normalised": true
+}

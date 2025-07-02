@@ -1,0 +1,25 @@
+{
+  "scenario_id": "cont1",
+  "category": "CONTEXT",
+  "prompt": "In a typical living room, there's a coffee table two feet in front of a sofa. There's also a floor lamp behind the sofa.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.396,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"sofa\":{\"position\":{\"x\":-128.0,\"y\":0.0,\"z\":-128.0}},\"coffee_table\":{\"position\":{\"x\":-128.0,\"y\":128.0,\"z\":-128.0}},\"floor_lamp\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-128.0}}}}",
+  "normalised": true
+}

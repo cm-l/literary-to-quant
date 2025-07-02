@@ -1,0 +1,24 @@
+{
+  "scenario_id": "lit3",
+  "category": "LITERARY",
+  "prompt": "Mismatched, colorful mugs crowded one corner of the counter, near a kettle that was still warm. A cutting board sat where it had been left mid-prep, still dusted with crumbs and the faint scent of garlic. Magnets held a collage of notes and photos on the fridge right by the entrance - reminders, recipes, and a child\u00e2\u20ac\u2122s drawing of a rotund cat. Light streamed through the window above the sink, illuminating a pile of dishes yet to be washed.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 17.102,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n\"objects\": {\n\"kettle\": {\n\"position\": {\n\"x\": 20,\n\"y\": 30,\n\"z\": 40\n}\n},\n\"mugs\": {\n\"position\": {\n\"x\": 15,\n\"y\": 25,\n\"z\": 35\n}\n},\n\"cutting board\": {\n\"position\": {\n\"x\": 10,\n\"y\": 20,\n\"z\": 30\n}\n},\n\"fridge\": {\n\"position\": {\n\"x\": -20,\n\"y\": 0,\n\"z\": 0\n}\n},\n\"magnets\": {\n\"position\": {\n\"x\": -18,\n\"y\": 10,\n\"z\": 0\n}\n},\n\"notes\": {\n\"position\": {\n\"x\": -18,\n\"y\": 10,\n\"z\": 0\n}\n},\n\"photos\": {\n\"position\": {\n\"x\": -18,\n\"y\": 10,\n\"z\": 0\n}\n},\n\"child's drawing\": {\n\"position\": {\n\"x\": -18,\n\"y\": 10,\n\"z\": 0\n}\n},\n\"window\": {\n\"position\": {\n\"x\": 0,\n\"y\": 50,\n\"z\": 40\n}\n},\n\"dishes\": {\n\"position\": {\n\"x\": 0,\n\"y\": 40,\n\"z\": 30\n}\n}\n}\n}"
+}

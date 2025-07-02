@@ -1,0 +1,25 @@
+{
+  "scenario_id": "lit2",
+  "category": "LITERARY",
+  "prompt": "This library was like a sanctuary of long forgotten lore, with shelves reaching upward towards the ceiling, seemingly buckling under the weight of all the knowledge they carried. Dust motes drifted lazily in shafts of amber sunlight, illuminating rows upon rows of unread pages. A wooden ladder leaned quietly against the one of the bookshelves. In a far corner of the room, hidden in the shadows, a forgotten armchair patiently gathered memories and layer of grime.",
+  "model": "gpt-4o",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.093,
+    "usage": null,
+    "model_used": "openai/gpt-4o",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"bookshelves\":{\"position\":{\"x\":-85.33333333333334,\"y\":128.0,\"z\":-128.0}},\"wooden_ladder\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-102.4}},\"armchair\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":128.0}}}}",
+  "normalised": true
+}

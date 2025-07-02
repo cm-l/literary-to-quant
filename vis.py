@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def visualize_outputs(input_dir='outputs', output_dir='visualization'):
+def visualize_outputs(input_dir='normalized', output_dir='normalizedplots'):
     """
     Walk through the input directory structure, parse JSON files, extract object positions,
     and save 3D scatter plots organized by model and category. Axis limits are auto-adjusted

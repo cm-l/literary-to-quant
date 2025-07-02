@@ -1,0 +1,24 @@
+{
+  "scenario_id": "cal3",
+  "category": "CALIBRATION",
+  "prompt": "U is at (30, 30, 80) and is 10 units above V.",
+  "model": "claude-3.7",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 2.647,
+    "usage": null,
+    "model_used": "anthropic/claude-3.7-sonnet",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"U\": {\n      \"position\": {\n        \"x\": 30,\n        \"y\": 30,\n        \"z\": 80\n      }\n    },\n    \"V\": {\n      \"position\": {\n        \"x\": 30,\n        \"y\": 30,\n        \"z\": 70\n      }\n    }\n  }\n}\n"
+}

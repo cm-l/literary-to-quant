@@ -1,0 +1,24 @@
+{
+  "scenario_id": "lit4",
+  "category": "LITERARY",
+  "prompt": "The lawyer's office smelled like burnt ribbon ink and defeat. A tiny desk was jammed against the wall, the electronic typewriter on it still warm. A bone-dry coffe mug yawning beside a phone coiled like a paranoid rattler around a stack of greasy business cards. Across the room, a bloated bookcase sagged with colorful binders - narcotics busts, divorce shrapnel, nasty land-grab double-crosses. He knew he didn't have much time, and that getting disbarred was just the beginning. The shredder by the window snarled nonstop since Monday, chewing paper into confetti so efficiently you'd swear it was on a government stipend. This, friend, is where the years of legally dubious paperwork comes to die: where the truth gets bleached, pulped and shot into a trashcan in tidy strips. Just another day's offering to the gods of legal gymnastics.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.313,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"desk\": {\n      \"position\": {\n        \"x\": 20,\n        \"y\": 0,\n        \"z\": 10\n      }\n    },\n    \"typewriter\": {\n      \"position\": {\n        \"x\": 20,\n        \"y\": 0,\n        \"z\": 12\n      }\n    },\n    \"coffee_mug\": {\n      \"position\": {\n        \"x\": 22,\n        \"y\": 0,\n        \"z\": 12\n      }\n    },\n    \"phone\": {\n      \"position\": {\n        \"x\": 24,\n        \"y\": 0,\n        \"z\": 12\n      }\n    },\n    \"business_cards\": {\n      \"position\": {\n        \"x\": 24,\n        \"y\": 0,\n        \"z\": 10\n      }\n    },\n    \"bookcase\": {\n      \"position\": {\n        \"x\": -20,\n        \"y\": 0,\n        \"z\": 10\n      }\n    },\n    \"shredder\": {\n      \"position\": {\n        \"x\": -10,\n        \"y\": 0,\n        \"z\": 20\n      }\n    }\n  }\n}"
+}

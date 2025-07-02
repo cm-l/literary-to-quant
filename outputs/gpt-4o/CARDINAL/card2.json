@@ -1,0 +1,24 @@
+{
+  "scenario_id": "card2",
+  "category": "CARDINAL",
+  "prompt": "In an art studio, a large canvas hangs on the back wall so that its center is positioned 40 units from the left corner of that wall. In the middle of the floor stands a pedestal with a sculpture on it. Directly above the sculpture, a spotlight is mounted on the ceiling.",
+  "model": "gpt-4o",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.513,
+    "usage": null,
+    "model_used": "openai/gpt-4o",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\n  \"objects\": {\n    \"canvas\": {\n      \"position\": {\n        \"x\": -88,\n        \"y\": 0,\n        \"z\": 64\n      }\n    },\n    \"pedestal\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 0\n      }\n    },\n    \"sculpture\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 0\n      }\n    },\n    \"spotlight\": {\n      \"position\": {\n        \"x\": 0,\n        \"y\": 0,\n        \"z\": 128\n      }\n    }\n  }\n}\n"
+}

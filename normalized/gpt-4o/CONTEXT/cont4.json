@@ -1,0 +1,25 @@
+{
+  "scenario_id": "cont4",
+  "category": "CONTEXT",
+  "prompt": "A man is looking out of a window in his cell. Behind him, there is a heavy security door. The only things to keep him company are a single light bulb hanging from the ceiling above the center of the room, and a poster on the wall perpendicular to the door.",
+  "model": "gpt-4o",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 3.759,
+    "usage": null,
+    "model_used": "openai/gpt-4o",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"man\":{\"position\":{\"x\":-128.0,\"y\":0.0,\"z\":0.0}},\"window\":{\"position\":{\"x\":-128.0,\"y\":128.0,\"z\":0.0}},\"security_door\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-128.0}},\"light_bulb\":{\"position\":{\"x\":-128.0,\"y\":0.0,\"z\":128.0}},\"poster\":{\"position\":{\"x\":128.0,\"y\":0.0,\"z\":-128.0}}}}",
+  "normalised": true
+}

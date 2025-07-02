@@ -1,0 +1,25 @@
+{
+  "scenario_id": "lit1",
+  "category": "LITERARY",
+  "prompt": "The living room bore all the gentle scars of daily life. Pushed\nup against the wall, a sofa, softened by years of conversation and afternoon naps. Next to\nit, a coffee table, cluttered yet comforting, held a stack of books and a half-empty mug.\nPhotographs lined shelves, capturing smiling faces and faded vacations. In the middle of the room - a large pile of LEGO bricks, hazardous to any family member brave enough to walk around barefoot.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 12.836,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"sofa\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":-128.0}},\"coffee table\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":-128.0}},\"books\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":128.0}},\"mug\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":128.0}},\"photographs\":{\"position\":{\"x\":-128.0,\"y\":128.0,\"z\":-128.0}},\"LEGO bricks\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":0.0}}}}",
+  "normalised": true
+}

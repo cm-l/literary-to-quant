@@ -1,0 +1,25 @@
+{
+  "scenario_id": "card4",
+  "category": "CARDINAL",
+  "prompt": "In a cozy rectangular living room, a sofa is positioned exactly 10 units from the left wall and 25 units from the back wall. Facing it, at a distance of 30 units, is a TV mounted centrally on the opposite wall. A coffee table sits precisely midway between the sofa and the TV, while a floor lamp stands 15 units to the right of the sofa.",
+  "model": "llama-3-70b",
+  "parameters": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "stop": [
+      "\n\n"
+    ],
+    "seed": 2025
+  },
+  "llm_metadata": {
+    "status_code": 200,
+    "latency_s": 4.688,
+    "usage": null,
+    "model_used": "meta-llama/llama-3-70b-instruct",
+    "finish_reason": "stop",
+    "retried": false
+  },
+  "raw_output": "{\"objects\":{\"sofa\":{\"position\":{\"x\":-128.0,\"y\":-128.0,\"z\":128.0}},\"TV\":{\"position\":{\"x\":128.0,\"y\":-128.0,\"z\":-128.0}},\"coffee table\":{\"position\":{\"x\":0.0,\"y\":-128.0,\"z\":0.0}},\"floor lamp\":{\"position\":{\"x\":64.0,\"y\":-128.0,\"z\":128.0}}}}",
+  "normalised": true
+}
